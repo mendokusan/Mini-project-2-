@@ -1,0 +1,7 @@
+H:\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.csprojAssemblyReference.cache
+H:\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.csproj.CoreCompileInputs.cache
+H:\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe.config
+H:\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe
+H:\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.pdb
+H:\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.exe
+H:\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.pdb
