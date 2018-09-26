@@ -10,6 +10,7 @@ namespace ITsupportAI
     {
         static void Main()
         {
+            Console.WriteLine("HI.");
         }
     }
 }
