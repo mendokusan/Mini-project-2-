@@ -10,6 +10,7 @@ namespace ITsupportAI
     {
         static void Main()
         {
+<<<<<<< HEAD
             string name;
             Char help;
 
@@ -35,6 +36,9 @@ namespace ITsupportAI
 
             }
 
+=======
+            Console.WriteLine("HI.");
+>>>>>>> 1e02d42771777ca9ad3d228754c439f56d7d8f99
         }
     }
 }
