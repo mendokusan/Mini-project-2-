@@ -11,3 +11,10 @@ C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.pd
 C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe
 C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.pdb
 C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.csprojResolveAssemblyReference.cache
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe.config
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.pdb
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.csprojAssemblyReference.cache
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.csproj.CoreCompileInputs.cache
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.exe
+C:\Users\Minininja\Documents\Polytech\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.pdb

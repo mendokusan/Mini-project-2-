@@ -12,7 +12,7 @@ namespace ITsupportAI
         static void Main()
         {
             //intro
-            string name, ans, software;
+            string name, ans, software, answer, power_on, bios, led;
             char help;
 
             Console.ForegroundColor = ConsoleColor.Red;
@@ -30,7 +30,56 @@ namespace ITsupportAI
             if (help == 'H')
             {
                 Console.WriteLine("Hardware");
-                Console.WriteLine("Is the issue, ");
+               
+                Console.WriteLine("Does the Computer start? Y/N: ");
+                power_on = Convert.ToString(Console.ReadLine().ToUpper());
+
+                if (power_on == "Y")
+                {
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    Console.WriteLine("Does your computer boot into the Bios? Y/N: ");
+                    bios = Convert.ToString(Console.ReadLine().ToUpper());
+
+                    if (bios == "Y")
+                    {
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        Console.WriteLine("Try updating your hardware drivers");
+                    }
+
+                    else
+                    {
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        Console.WriteLine("Try look up the beep code for your motherboard");
+                    }
+
+                }
+
+                else
+                {
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    Console.WriteLine("Does the motherboard have a led on it? Y/N");
+                    led = Convert.ToString(Console.ReadLine().ToUpper());
+
+                    if (led == "Y")
+                    {
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        Console.WriteLine("Check to see if you have plugged everything in propperly. you can research the motherboard model and find everything you need to know");
+                    }
+
+                    else
+                    {
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        Console.WriteLine("You may have busted your motherboard or just need to make sure it is plugged in and switeched on");
+                    }
+
+                }
+
                 Console.ReadLine();
             }
 
