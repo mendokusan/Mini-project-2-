@@ -5,3 +5,9 @@ H:\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe
 H:\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.pdb
 H:\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.exe
 H:\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.pdb
+C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe.config
+C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.exe
+C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.pdb
+C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.exe
+C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\bin\Debug\ITsupportAI.pdb
+C:\Users\The Baboon\Desktop\Mini-project-2-\ITsupportAI\obj\Debug\ITsupportAI.csprojResolveAssemblyReference.cache
