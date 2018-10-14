@@ -12,7 +12,7 @@ namespace ITsupportAI
         static void Main()
         {
             //intro
-            string name, ans, software, answer, power_on, bios, led;
+            string name, ans, software, answer, power_on, bios, led, answerinternet;
             char help;
 
             Console.ForegroundColor = ConsoleColor.Red;
@@ -30,7 +30,7 @@ namespace ITsupportAI
             if (help == 'H')
             {
                 Console.WriteLine("Hardware");
-               
+
                 Console.WriteLine("Does the Computer start? Y/N: ");
                 power_on = Convert.ToString(Console.ReadLine().ToUpper());
 
@@ -187,24 +187,105 @@ namespace ITsupportAI
             if (help == 'I')
             {
                 Console.WriteLine("Internet connection");
-                Console.WriteLine("Is the issue, ");
-                Console.ReadLine();
+                Console.WriteLine("Have you tried resetting your router?");
+                answerinternet = Convert.ToString(Console.ReadLine().ToUpper());
+                if (answerinternet == "Y")
+                {
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    Console.WriteLine("Have you tried disconnecting the wifi from your device and then reconnect?Y/N:");
+                    answerinternet = Convert.ToString(Console.ReadLine().ToUpper());
+                    if (answerinternet == "Y")
+                    {
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        Console.WriteLine("Have you tried checking for spyware, viruses, and malware?Y/N:");
+                        answerinternet = Convert.ToString(Console.ReadLine().ToUpper());
+                        if (answerinternet == "Y")
+                        {
+                            Thread.Sleep(1000);
+                            Console.Clear();
+                            Console.WriteLine("Have you tried moving your router for a better connection?Y/N");
+                            answerinternet = Convert.ToString(Console.ReadLine().ToUpper());
+
+                            if (answerinternet == "Y")
+                            {
+                                Thread.Sleep(1000);
+                                Console.Clear();
+                                Console.WriteLine(@"I suggest you to contact your internet provider. 
+Have a nice day.");
+
+                            }
+                            else
+                            {
+                                Console.WriteLine(@"Please move you router to another location.
+Did that solve the issue?");
+                                answerinternet = Convert.ToString(Console.ReadLine().ToUpper());
+                                if (answerinternet == "Y")
+                                {
+                                    Thread.Sleep(1000);
+                                    Console.Clear();
+                                    Console.WriteLine(@"Thank you using out AI service." +
+                                        "Goodbye!");
+                                }
+                                else
+                                {
+                                    Thread.Sleep(1000);
+                                    Console.Clear();
+                                    Console.WriteLine(@"I suggest you to contact your internet provider.
+Have a great day!");
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                else
+                {
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    Console.WriteLine(@"Please try resetting your router.
+Did that fix the issue?");
+                    answerinternet = Convert.ToString(Console.ReadLine().ToUpper());
+                    if (answerinternet == "Y")
+                    {
+                        Console.WriteLine(@"Thank you for using our IT support.
+Have a great day.");
+                    }
+                    else
+                    {
+                        Console.WriteLine(@"I suggest you to contact your internet provider. +
+Have a great day!");
+                    }
+                }
+                    }
+
+
+
+                    Console.ReadLine();
+                    
+
+
+
+                        if (help == 'X')
+                        {
+                            Console.WriteLine("No issues today?");
+                            Thread.Sleep(1000);
+                            Console.Clear();
+                            Console.WriteLine(". . . . . ");
+                            Thread.Sleep(1000);
+                            Console.Clear();
+                            Console.WriteLine(" Goodbye ");
+                            Thread.Sleep(1000);
+                            Console.Clear();
+                        }
+
+                    }
+                }
             }
+        
+    
 
 
-            if (help == 'X')
-            {
-                Console.WriteLine("No issues today?");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine(". . . . . ");
-                Thread.Sleep(1000);
-                Console.Clear();
-                Console.WriteLine(" Goodbye ");
-                Thread.Sleep(1000);
-                Console.Clear();
-            }
 
-        }
-    }
-}
