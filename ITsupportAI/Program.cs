@@ -13,7 +13,7 @@ namespace ITsupportAI
         {
             //intro
             string name, ans, software, answer, power_on, bios, led, answerinternet;
-            char help;
+            char help, Popt, perans;
 
             Console.ForegroundColor = ConsoleColor.Red;
 
@@ -179,8 +179,94 @@ namespace ITsupportAI
             if (help == 'P')
             {
                 Console.WriteLine("Peripheral");
-                Console.WriteLine("Is the issue, ");
-                Console.ReadLine();
+                Console.WriteLine("Is the issue involving: Mouse(m), Keyboard(k) or Screen(s).");
+                Popt = Convert.ToChar(Console.ReadLine());
+                Thread.Sleep(1000);
+                Console.Clear();
+
+                if (Popt == 'm')
+                {
+                    Console.WriteLine("Mouse");
+                    Console.WriteLine("Is your mouse plugged in (y) oy (n)");
+                    perans = Convert.ToChar(Console.ReadLine());
+                    Console.Clear();
+
+                    if (perans == 'y')
+                    {
+                        Console.WriteLine("There is likely a hardware issue with your mouse and will need to seek proffesional help");
+                        Thread.Sleep(4000);
+                        Console.Clear();
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Plug in your mouse, if this dosent fix the issue there is likely a hardware issue with your mouse and will need to seek proffesional help");
+                        Thread.Sleep(4000);
+                        Console.Clear();
+                    }
+
+                }
+
+                if (Popt == 'k')
+                {
+                    Console.WriteLine("Keyboard");
+                    Console.WriteLine("Is your Keyboard plugged in (y) oy (n)");
+                    perans = Convert.ToChar(Console.ReadLine());
+                    Console.Clear();
+
+                    if (perans == 'y')
+                    {
+                        Console.WriteLine("There is likely a hardware issue with your Keyboard and will need to seek proffesional help");
+                        Thread.Sleep(4000);
+                        Console.Clear();
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Plug in your mouse, if this dosent fix the issue there is likely a hardware issue with your Keyboard and will need to seek proffesional help");
+                        Thread.Sleep(4000);
+                        Console.Clear();
+                    }
+
+                }
+
+                if (Popt == 's')
+                {
+                    Console.WriteLine("Screen");
+                    Console.WriteLine("Is the power plugged in and or switched on (y) oy (n)");
+                    perans = Convert.ToChar(Console.ReadLine());
+                    Console.Clear();
+
+                    if (perans == 'y')
+                    {
+                        Console.WriteLine("Are you able to get any visual display on screen (y) or (n)");
+                        perans = Convert.ToChar(Console.ReadLine());
+                        Console.Clear();
+
+                        if (perans == 'y')
+                        {
+                            Console.WriteLine("Try turning brightness settings up on side of monitor, if unable to do so you will likely need proffessional help.");
+                            Console.ReadLine();
+                            Console.Clear();
+                        }
+
+                        if (perans == 'n')
+                        {
+                            Console.WriteLine("You likely have a hardware fault and will have to get professional help.");
+                            Console.ReadLine();
+                            Console.Clear();
+                        }
+
+                    }
+
+                    if (perans == 'n')
+                    {
+                        Console.WriteLine("Plug power in or switch on, if unable to do so you will likely need proffessional help.");
+                        Console.ReadLine();
+                        Console.Clear();
+                    }
+                }
+
             }
 
 
